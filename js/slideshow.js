@@ -4,7 +4,8 @@ $(document).ready(function () {
 
   function showPhotos() {
     let i;
-    const slides = $(".photo img");
+    // const slides = $(".photo img");
+    const slides = $("#instafeed a");
 
     for (i = 0; i < slides.length; i++) {
       $(slides[i]).hide();
